@@ -4,7 +4,7 @@
   "author": "Simon Legner <Simon.Legner@gmail.com>",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "build": "esbuild --bundle app.ts --outdir=dist/ --target=es6 --minify --sourcemap --external:images/layers.png --external:images/layers-2x.png --external:images/marker-icon.png",
+    "build": "esbuild --bundle app.ts --outdir=dist/ --loader:.geojson=json --target=es6 --minify --sourcemap --external:images/layers.png --external:images/layers-2x.png --external:images/marker-icon.png",
     "test": "Echo no tests specified"
   },
   "dependencies": {
