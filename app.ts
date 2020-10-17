@@ -11,7 +11,13 @@ const map = L.map(document.getElementById("map"), {
   zoom: 15,
   attributionControl: false,
 });
-L.control.attribution({ prefix: false }).addTo(map);
+L.control
+  .attribution({
+    prefix: `
+      <a href="https://github.com/simon04/zeitlinie.tmb.at/">@simon04/zeitlinie.tmb.at</a>
+      (<a href="https://github.com/simon04/zeitlinie.tmb.at/blob/master/LICENSE">GPL v3</a>)`,
+  })
+  .addTo(map);
 L.tileLayer.provider("BasemapAT.grau").addTo(map);
 
 const timeline = L.timeline(Innsbruck, {
