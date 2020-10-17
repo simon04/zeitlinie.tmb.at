@@ -36,8 +36,13 @@ const timeline = L.timeline(Innsbruck, {
 
 L.timelineSliderControl({
   enableKeyboardControls: true,
-  formatOutput(date) {
-    return new Date(date).toLocaleDateString("de", { year: "numeric" });
+  formatOutput(time) {
+    const date = new Date(time);
+    return date.toLocaleDateString("de", {
+      year: "numeric",
+      month: date.getDate() > 1 || date.getMonth() > 1 ? "long" : undefined,
+      day: date.getDate() > 1 ? "numeric" : undefined,
+    });
   },
   waitToUpdateMap: true,
 })

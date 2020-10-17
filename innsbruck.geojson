@@ -51,7 +51,7 @@
         {
             "type": "Feature",
             "properties": {
-                "start": "1891",
+                "start": "1891-05-16",
                 "end": "2050",
                 "railway": "tram"
             },
@@ -370,7 +370,7 @@
         {
             "type": "Feature",
             "properties": {
-                "start": "1905-07",
+                "start": "1905-07-15",
                 "railway": "tram",
                 "end": "2050"
             },
@@ -906,8 +906,8 @@
             "type": "Feature",
             "properties": {
                 "railway": "tram",
-                "start": "1891",
-                "end": "1974"
+                "start": "1891-05-16",
+                "end": "1974-06-08"
             },
             "geometry": {
                 "type": "LineString",
@@ -1215,6 +1215,51 @@
         {
             "type": "Feature",
             "properties": {
+                "start": "1906-09",
+                "end": "2005-12-08",
+                "railway": "funicular"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        11.40424579114,
+                        47.27977490571
+                    ],
+                    [
+                        11.40330701798,
+                        47.28209492350
+                    ],
+                    [
+                        11.40311658114,
+                        47.28242790594
+                    ],
+                    [
+                        11.40207320184,
+                        47.28366883842
+                    ],
+                    [
+                        11.40190422267,
+                        47.28393630833
+                    ],
+                    [
+                        11.40151798457,
+                        47.28466047176
+                    ],
+                    [
+                        11.40104323357,
+                        47.28520995599
+                    ],
+                    [
+                        11.40033513039,
+                        47.28601051882
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "railway": "tram",
                 "start": "2022-12",
                 "end": "2050"
@@ -1400,7 +1445,7 @@
         {
             "type": "Feature",
             "properties": {
-                "start": "1905-07",
+                "start": "1905-07-15",
                 "railway": "tram",
                 "end": "1956"
             },
@@ -1461,7 +1506,7 @@
         {
             "type": "Feature",
             "properties": {
-                "start": "1905-07",
+                "start": "1905-07-15",
                 "railway": "tram",
                 "end": "2050"
             },
@@ -1566,6 +1611,39 @@
                     [
                         11.41301929414,
                         47.26251806200
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "start": "1983-06-23",
+                "end": "2050",
+                "railway": "tram"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        11.39789440000,
+                        47.25280540000
+                    ],
+                    [
+                        11.39770924911,
+                        47.25309740101
+                    ],
+                    [
+                        11.39759123191,
+                        47.25351249139
+                    ],
+                    [
+                        11.39742761716,
+                        47.25366905973
+                    ],
+                    [
+                        11.39696359366,
+                        47.25374916519
                     ]
                 ]
             }
@@ -2961,7 +3039,28 @@
         {
             "type": "Feature",
             "properties": {
-                "start": "1905-11",
+                "railway": "tram",
+                "start": "1908",
+                "end": "2050"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        11.39478750728,
+                        47.26275450733
+                    ],
+                    [
+                        11.39982570794,
+                        47.26314990074
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "start": "1905-11-18",
                 "end": "2050",
                 "railway": "tram"
             },
@@ -4205,7 +4304,7 @@
             "type": "Feature",
             "properties": {
                 "railway": "tram",
-                "start": "1891",
+                "start": "1891-05-16",
                 "end": "1909"
             },
             "geometry": {
@@ -4353,7 +4452,7 @@
             "type": "Feature",
             "properties": {
                 "railway": "tram",
-                "start": "1891",
+                "start": "1891-05-16",
                 "end": "1939-07"
             },
             "geometry": {
@@ -4563,7 +4662,7 @@
         {
             "type": "Feature",
             "properties": {
-                "start": "1891",
+                "start": "1891-05-16",
                 "end": "2007-11",
                 "railway": "tram"
             },
@@ -4603,7 +4702,8 @@
             "properties": {
                 "railway": "tram",
                 "start": "1908",
-                "end": "2050"
+                "end": "1920",
+                "fixme": "end=1920???"
             },
             "geometry": {
                 "type": "LineString",
@@ -4615,10 +4715,6 @@
                     [
                         11.39478750728,
                         47.26275450733
-                    ],
-                    [
-                        11.39982570794,
-                        47.26314990074
                     ]
                 ]
             }
@@ -4712,7 +4808,7 @@
         {
             "type": "Feature",
             "properties": {
-                "start": "1891",
+                "start": "1891-05-16",
                 "end": "1964",
                 "railway": "tram"
             },
@@ -5015,7 +5111,7 @@
         {
             "type": "Feature",
             "properties": {
-                "start": "1905-07",
+                "start": "1905-07-15",
                 "railway": "tram",
                 "end": "2050"
             },
@@ -5056,7 +5152,7 @@
         {
             "type": "Feature",
             "properties": {
-                "start": "1891",
+                "start": "1891-05-16",
                 "end": "2050",
                 "railway": "tram"
             },
@@ -6137,7 +6233,7 @@
             "type": "Feature",
             "properties": {
                 "start": "1904",
-                "end": "1983",
+                "end": "1983-06-23",
                 "railway": "tram"
             },
             "geometry": {
