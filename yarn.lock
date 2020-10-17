@@ -26,6 +26,11 @@ diesal@^1.0.2:
   resolved "https://registry.yarnpkg.com/diesal/-/diesal-1.0.2.tgz#a79b75d920a6747d4fae9abc529450723d61cb90"
   integrity sha512-vGKXq/bB/eNI4L2fMj8jH9wpQ05ijUReLmfLAZRNeXVqOaC4NfdpQvoIZrazEbA5u9MF3R8JYloUUQTp3Q/yvA==
 
+esbuild@^0.7.16:
+  version "0.7.16"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.7.16.tgz#688fe048b98eca5121bc1a8686cba99ea1f9b5ab"
+  integrity sha512-qPQ3OE2BCCioUSep3Bnm1BA9EEkamGJwIowyjKmntCKSHIFuNoyfP+cV4HA5zJnQJAjhdM/JOuAnKq8PxlW1Dg==
+
 leaflet-providers@^1.10.2:
   version "1.10.2"
   resolved "https://registry.yarnpkg.com/leaflet-providers/-/leaflet-providers-1.10.2.tgz#763c8e6655f26caf1afe3a1ef4add6c3e32de663"

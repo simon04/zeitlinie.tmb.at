@@ -5,7 +5,7 @@
   "license": "GPL-3.0-or-later",
   "scripts": {
     "build": "esbuild --bundle app.ts --outdir=dist/ --loader:.geojson=json --target=es6 --minify --sourcemap --external:images/layers.png --external:images/layers-2x.png --external:images/marker-icon.png",
-    "test": "Echo no tests specified"
+    "test": "echo No tests specified"
   },
   "dependencies": {
     "leaflet": "^1.7.1",
@@ -14,6 +14,7 @@
   },
   "devDependencies": {
     "@types/leaflet": "^1.5.19",
-    "@types/leaflet-providers": "^1.2.0"
+    "@types/leaflet-providers": "^1.2.0",
+    "esbuild": "^0.7.16"
   }
 }
