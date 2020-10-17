@@ -7,8 +7,15 @@ body,
   padding: 0;
 }
 
+.leaflet-control.leaflet-timeline-control {
+  margin-left: 0 !important;
+  margin-bottom: 0 !important;
+  box-sizing: content-box;
+}
 .leaflet-timeline-control .time-slider {
-  width: 360px;
+  min-width: 300px;
+  width: calc(100vw - 25px);
+  max-width: 640px;
 }
 
 .leaflet-timeline-control button.prev::before {

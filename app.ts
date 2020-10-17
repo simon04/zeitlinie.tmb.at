@@ -12,13 +12,6 @@ const map = L.map(document.getElementById("map"), {
   attributionControl: false,
 });
 const layers = L.control.layers().addTo(map);
-L.control
-  .attribution({
-    prefix: `
-      <a href="https://github.com/simon04/zeitlinie.tmb.at/">@simon04/zeitlinie.tmb.at</a>
-      (<a href="https://github.com/simon04/zeitlinie.tmb.at/blob/master/LICENSE">GPL v3</a>)`,
-  })
-  .addTo(map);
 const basemap = L.tileLayer.provider("BasemapAT.grau").addTo(map);
 layers.addBaseLayer(basemap, "basemap.at");
 layers.addBaseLayer(L.tileLayer.provider("OpenStreetMap"), "OpenStreetMap");
@@ -85,3 +78,11 @@ L.timelineSliderControl({
 })
   .addTo(map)
   .addTimelines(timeline);
+L.control
+  .attribution({
+    position: "bottomleft",
+    prefix: `
+      <a href="https://github.com/simon04/zeitlinie.tmb.at/">@simon04/zeitlinie.tmb.at</a>
+      (<a href="https://github.com/simon04/zeitlinie.tmb.at/blob/master/LICENSE">GPL v3</a>)`,
+  })
+  .addTo(map);
