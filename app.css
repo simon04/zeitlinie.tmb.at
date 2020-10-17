@@ -7,6 +7,19 @@ body,
   padding: 0;
 }
 
-.time-slider {
+.leaflet-timeline-control .time-slider {
   width: 360px;
+}
+
+.leaflet-timeline-control button.prev::before {
+  content: "⏮";
+}
+.leaflet-timeline-control button.play::before {
+  content: "⏯";
+}
+.leaflet-timeline-control button.pause::before {
+  content: "⏸";
+}
+.leaflet-timeline-control button.next::before {
+  content: "⏭";
 }
