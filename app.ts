@@ -34,6 +34,15 @@ const timeline = L.timeline(Innsbruck, {
   },
 }).addTo(map);
 
+// interpret end date as exclusive:
+// replace lookup `time <= featureTime` with `time < featureTime`
+const lookup = timeline.ranges.lookup;
+timeline.ranges.lookup = (time) =>
+  lookup.call(timeline.ranges, time).filter((feature: GeoJSON.Feature) => {
+    const featureTime = timeline._getInterval(feature);
+    return featureTime && time < featureTime.end;
+  });
+
 L.timelineSliderControl({
   enableKeyboardControls: true,
   formatOutput(time) {
