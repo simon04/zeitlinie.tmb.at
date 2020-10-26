@@ -4,7 +4,7 @@
   "author": "Simon Legner <Simon.Legner@gmail.com>",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "build": "esbuild --bundle app.ts --outdir=dist/ --loader:.geojson=json --target=es6 --minify --sourcemap --external:images/layers.png --external:images/layers-2x.png --external:images/marker-icon.png",
+    "build": "esbuild --bundle app.ts --outdir=dist/ --loader:.geojson=json --loader:.png=file --target=es6 --minify --sourcemap",
     "test": "echo No tests specified"
   },
   "dependencies": {
@@ -15,6 +15,6 @@
   "devDependencies": {
     "@types/leaflet": "^1.5.19",
     "@types/leaflet-providers": "^1.2.0",
-    "esbuild": "^0.7.16"
+    "esbuild": "^0.7.21"
   }
 }
