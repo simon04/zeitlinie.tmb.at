@@ -4,7 +4,7 @@ Timeline of [tramlines in Innsbruck](https://en.wikipedia.org/wiki/Trams_in_Inns
 
 ## Usage 
 
-- http://tmb.at/zeitlinie/
+- https://www.tmb.at/ownext/timeline/
 
 ![Screenshot of zeitlinie.tmb.at](https://user-images.githubusercontent.com/782446/98071249-531df580-1e63-11eb-8523-2282f321882a.jpeg)
 
