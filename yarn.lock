@@ -7,17 +7,24 @@
   resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.7.tgz#c8fa532b60a0042219cdf173ca21a975ef0666ad"
   integrity sha512-wE2v81i4C4Ol09RtsWFAqg3BUitWbHSpSlIo+bNdsCJijO9sjme+zm+73ZMCa/qMC8UEERxzGbvmr1cffo2SiQ==
 
-"@types/leaflet-providers@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@types/leaflet-providers/-/leaflet-providers-1.2.0.tgz#185fbf91e2f60726f556293d3278c23dd736fafc"
-  integrity sha512-xuIUo0rEtuKdKIWwtLH0mD+dgSy/CRspVPa0nI/SuPLS29H7q+GPO4Qluxzkk+u9qvMtTjxqkrJjtnsx96+aPQ==
+"@types/leaflet-providers@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@types/leaflet-providers/-/leaflet-providers-1.2.1.tgz#620669b828959740a2d8572e0c0288a2382d3564"
+  integrity sha512-uNyuXiNV2q3fmgNjQji2P6RjQISmL40bbOL91/3OAwiE3XhkLKPmSAtAcfe11MAIz45iEjdFZJWppq9QyfnPIw==
   dependencies:
     "@types/leaflet" "*"
 
-"@types/leaflet@*", "@types/leaflet@^1.5.19":
+"@types/leaflet@*":
   version "1.5.19"
   resolved "https://registry.yarnpkg.com/@types/leaflet/-/leaflet-1.5.19.tgz#f290e21fe7a4744d68bb4b0709e99ce490120e6e"
   integrity sha512-ZAKqfvdU/+KFoCpf8aUba09F8mfSc8R2esq++Cha3E2DgwS5K/I/4eJ+0JylrVHZivgY7PSAeXFv/izP+81/MQ==
+  dependencies:
+    "@types/geojson" "*"
+
+"@types/leaflet@^1.9.1":
+  version "1.9.1"
+  resolved "https://registry.yarnpkg.com/@types/leaflet/-/leaflet-1.9.1.tgz#a220706b02c6024951d7fc2959d530c6941c4224"
+  integrity sha512-lYawM3I3lLO6rmBASaqdGgY6zUL4YHr3H79/axx7FNYyPXuj0P1DZHbkNo8Itbv0i7Y9EryLWtDXXROMygXhRA==
   dependencies:
     "@types/geojson" "*"
 
@@ -31,10 +38,10 @@ esbuild@^0.7.21:
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.7.21.tgz#e93f9d7e673cd5fcab2aab7774d489a0f680d657"
   integrity sha512-qEnJdj+6Mdpt5kZwwCqO6PDNXSHNDDOPbnF4pduS3nub1v5GfgZfi8ysZ2DN4Q65WWgx6hz1a237ZETEHZpR0Q==
 
-leaflet-providers@^1.10.2:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/leaflet-providers/-/leaflet-providers-1.10.2.tgz#763c8e6655f26caf1afe3a1ef4add6c3e32de663"
-  integrity sha512-1l867LObxwuFBeyPeBewip8PAXKOnvEoujq4/9y2TKTiZNHH76ksBD6dfktGjgUrOF+IdjsGHkpASPE+v2DQLw==
+leaflet-providers@^1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/leaflet-providers/-/leaflet-providers-1.13.0.tgz#10c843a23d5823a65096d40ad53f27029e13434b"
+  integrity sha512-f/sN5wdgBbVA2jcCYzScIfYNxKdn2wBJP9bu+5cRX9Xj6g8Bt1G9Sr8WgJAt/ckIFIc3LVVxCBNFpSCfTuUElg==
 
 leaflet.timeline@^1.4.3:
   version "1.4.3"
@@ -43,7 +50,7 @@ leaflet.timeline@^1.4.3:
   dependencies:
     diesal "^1.0.2"
 
-leaflet@^1.7.1:
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.7.1.tgz#10d684916edfe1bf41d688a3b97127c0322a2a19"
-  integrity sha512-/xwPEBidtg69Q3HlqPdU3DnrXQOvQU/CCHA1tcDQVzOwm91YMYaILjNp7L4Eaw5Z4sOYdbBz6koWyibppd8Zqw==
+leaflet@^1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.9.3.tgz#52ec436954964e2d3d39e0d433da4b2500d74414"
+  integrity sha512-iB2cR9vAkDOu5l3HAay2obcUHZ7xwUBBjph8+PGtmW/2lYhbLizWtG7nTeYht36WfOslixQF9D/uSIzhZgGMfQ==
